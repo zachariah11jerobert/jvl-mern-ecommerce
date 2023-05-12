@@ -1,0 +1,22 @@
+{
+  "name": "jvlcart",
+  "version": "1.0.0",
+  "description": "ecommerce using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "dev":"set NODE_ENV=development&&nodemon backend/server.js",
+    "prod":"set NODE_ENV=production&&nodemon backend/server.js",
+    "seeder":"node backend/utils/seeder.js"
+  },
+  "author": "Jerome",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv":"^16.0.3",
+    "express":"^4.18.2",
+    "mongoose":"^6.8.0"
+  },
+  "devDependencies": {
+    "nodemon":"^2.0.20"
+  }
+}
